@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;   
+}
+.main{
+    margin:30px;
+}
+#employeeForm{
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:2px;
+    margin-bottom:10px;
+}
+#name-div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width:30.33%;
+}
+#profession-div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width:30.33%;
+}
+
+h2{
+    margin-bottom: 35px;
+}
+
+.input{
+    margin-top: 9px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#age-div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width:30.33%;
+}
+button{
+    margin-top:20px;
+    width:120px;
+    height:30px;
+}
+h3{
+    margin-top: 19px;
+}
+#employeeCountMessage{
+    margin-top:20px;
+}
+#employeeList{
+    border-radius:90px;
+    width:450px;
+    padding-left: 10px;
+}
+/* ol{
+    counter-reset: item;
+} */
+li{
+    border: 1px solid white;
+    border-radius:20px;
+    padding:7px;
+    margin: 4px 0;
+}
+/* li::before{
+    content: counter(item)". ";
+    counter-increment: item;
+} */
+
+.error-message {
+    color: red;
+}
+.success-message {
+    color: green;
+}
